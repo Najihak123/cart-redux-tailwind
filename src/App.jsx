@@ -6,11 +6,14 @@ import Wishlist from './pages/Wishlist'
 import View from './pages/View'
 import Cart from './pages/Cart'
 import Pnf from './pages/Pnf'
+import Footer from './components/Footer'
+
 
 function App() {
 
   return (
     <>
+    
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/wishlist' element={<Wishlist/>}/>
@@ -20,6 +23,9 @@ function App() {
 
 
     </Routes>
+    <Footer/>
+    
+  
     </>
   )
 }
